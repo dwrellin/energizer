@@ -3,10 +3,7 @@ module.exports = {
     browser: true,
     es2020: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -14,9 +11,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   settings: {
     'import/resolver': {
       alias: {
@@ -25,9 +20,7 @@ module.exports = {
           ['components', './components'],
           ['utilities', './utilities'],
         ],
-        extensions: [
-          '.js', '.jsx', '.scss', '.sass',
-        ],
+        extensions: ['.js', '.jsx', '.scss', '.sass'],
       },
     },
   },
@@ -51,5 +44,6 @@ module.exports = {
     'no-use-before-define': 0,
     'no-nested-ternary': 0,
     'no-shadow': 0,
+    'global-require': 0,
   },
 };

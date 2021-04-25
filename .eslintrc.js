@@ -20,7 +20,7 @@ module.exports = {
           ['components', './components'],
           ['utilities', './utilities'],
         ],
-        extensions: ['.js', '.jsx', '.scss', '.sass'],
+        extensions: ['.js', '.jsx', '.scss', '.sass', './config.js'],
       },
     },
   },

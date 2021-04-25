@@ -1,18 +1,6 @@
 {
   "extends": "stylelint-config-sass-guidelines",
   "rules": {
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": [
-          "tailwind",
-          "apply",
-          "variants",
-          "responsive",
-          "screen"
-        ]
-      }
-    ],
     "declaration-block-trailing-semicolon": null,
     "no-descending-specificity": null,
     "max-nesting-depth": null,
@@ -20,5 +8,8 @@
     "selector-max-id": null,
     "selector-no-qualifying-type": null,
     "scss/selector-no-redundant-nesting-selector": null
-  }
+  },
+  "ignoreFiles": [
+    "./src/index.css"
+  ]
 }

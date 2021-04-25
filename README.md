@@ -26,15 +26,3 @@ Web boilerplate bootstrapped with CRA and Tailwind.
 
 - `yarn stylelint`
 - `yarn stylelint --fix` (with autofix)
-
-### Build
-
-- `yarn build`
-
-### Production
-
-- `yarn start`
-
-### Deployment
-
-- `cap production deploy`

@@ -1,6 +1,6 @@
 # Energizer Web Boilerplate
 
-Web boilerplate bootstrapped with CRA and Tailwind.
+Web boilerplate bootstrapped with CRA and Tailwind (ongoing development)
 
 ### Prerequisites
 

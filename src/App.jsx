@@ -1,14 +1,4 @@
 import React from 'react';
-import {
-  Route,
-  Switch,
-  BrowserRouter,
-} from 'react-router-dom';
-import HomePage from './pages';
-import AboutPage from './pages/about';
-import ContactPage from './pages/contact';
-import LoginPage from './pages/login';
-import PrivacyPolicyPage from './pages/privacy-policy';
 
 function App() {
   return (

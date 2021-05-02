@@ -12,7 +12,7 @@ import PrivacyPolicyPage from './pages/privacy-policy';
 
 function App() {
   return (
-    <div>  
+    <div>
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={HomePage} />

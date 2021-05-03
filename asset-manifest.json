@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/energizer/static/css/main.3d1682f1.chunk.css",
-    "main.js": "/energizer/static/js/main.b48b872e.chunk.js",
-    "main.js.map": "/energizer/static/js/main.b48b872e.chunk.js.map",
+    "main.js": "/energizer/static/js/main.562b0ff1.chunk.js",
+    "main.js.map": "/energizer/static/js/main.562b0ff1.chunk.js.map",
     "runtime-main.js": "/energizer/static/js/runtime-main.2d4fbb81.js",
     "runtime-main.js.map": "/energizer/static/js/runtime-main.2d4fbb81.js.map",
     "static/js/2.115b6d5f.chunk.js": "/energizer/static/js/2.115b6d5f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2d4fbb81.js",
     "static/js/2.115b6d5f.chunk.js",
     "static/css/main.3d1682f1.chunk.css",
-    "static/js/main.b48b872e.chunk.js"
+    "static/js/main.562b0ff1.chunk.js"
   ]
 }

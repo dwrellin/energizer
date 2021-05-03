@@ -26,3 +26,16 @@ Web boilerplate bootstrapped with CRA and Tailwind (ongoing development)
 
 - `yarn stylelint`
 - `yarn stylelint --fix` (with autofix)
+
+## Things to do before deploying to Github Pages
+
+1. Open the `package.json` file
+2. Change the url in the `homepage` field with your account and repo name (`https://<your-username>.github.io/<your-app>`)
+3. Run `yarn` in the terminal
+4. Once done, you're ready to deploy your static site
+
+## Deploy to Github Pages
+
+1. Commit your changes
+2. Run `yarn deploy`
+3. Push to `master` or `main` branch

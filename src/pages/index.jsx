@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <MainContainer>
       <div>
-        Landing Page Here
+        Landing Page
       </div>
     </MainContainer>
   );

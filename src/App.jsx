@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Route,
   Switch,
-  BrowserRouter,
+  HashRouter,
 } from 'react-router-dom';
 import HomePage from './pages';
 import AboutPage from './pages/about';
@@ -12,7 +12,7 @@ import PrivacyPolicyPage from './pages/privacy-policy';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/about' component={AboutPage} />
@@ -20,7 +20,7 @@ function App() {
         <Route path='/privacy-policy' component={PrivacyPolicyPage} />
         <Route path='/login' component={LoginPage} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

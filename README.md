@@ -31,7 +31,7 @@ Web boilerplate bootstrapped with CRA and Tailwind (ongoing development)
 
 1. Open the `package.json` file
 2. Change the url in the `homepage` field with the following: 
-```javascript
+```json
 {
   homepage: https://<your-username>.github.io/<your-app-name>
 }

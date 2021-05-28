@@ -33,7 +33,7 @@ Web boilerplate bootstrapped with CRA and Tailwind (ongoing development)
 2. Change the url in the `homepage` field with the following: 
 ```json
 {
-  homepage: https://<your-username>.github.io/<your-app-name>
+  "homepage": "https://<your-username>.github.io/<your-app-name>"
 }
 ```
 3. Run `yarn` in the terminal
